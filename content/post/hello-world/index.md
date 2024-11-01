@@ -1,16 +1,14 @@
 ---
 title: Hello World Nya~! ✨
-description: Welcome to Hugo Theme Stack
 slug: hello-world
 date: 2024-11-01 00:00:00+0000
 image: lina_cyan_kiss_book.jpg
 categories:
-    - Example Category
-tags:
-    - Example Tag
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+    - Meta
 author: Cyan Nyan
 ---
+
+Tokyo Hacker Girlsへようこそ〜！
 
 Welcome to our VTuber Tech Blog!
 
