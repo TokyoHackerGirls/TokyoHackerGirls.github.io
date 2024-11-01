@@ -1,0 +1,3 @@
+article:
+    author:
+        other: "By {{ . }}"
