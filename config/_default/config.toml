@@ -1,7 +1,7 @@
 # Change baseurl before deploy
-baseurl = "https://demo.stack.jimmycai.com"
+baseurl = "https://TokyoHackerGirls.github.io"
 languageCode = "en-us"
-title = "Hugo Theme Stack Starter"
+title = "Tokyo Hacker Girls"
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar
@@ -12,7 +12,7 @@ defaultContentLanguage = "en"
 hasCJKLanguage = false
 
 # Change it to your Disqus shortname before using
-disqusShortname = "hugo-theme-stack"
+disqusShortname = "tokyo-hacker-girls"
 
 [pagination]
 pagerSize = 5

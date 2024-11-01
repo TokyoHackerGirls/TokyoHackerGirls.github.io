@@ -10,7 +10,7 @@
 [[social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+url = "https://github.com/TokyoHackerGirls"
 
 [social.params]
 icon = "brand-github"
@@ -18,7 +18,31 @@ icon = "brand-github"
 [[social]]
 identifier = "twitter"
 name = "Twitter"
-url = "https://twitter.com"
+url = "https://twitter.com/TokyoHackerGrls"
 
 [social.params]
 icon = "brand-twitter"
+
+[[social]]
+identifier = "mastodon"
+name = "Mastodon"
+url = "https://vt.social/@TokyoHackerGirls"
+
+[social.params]
+icon = "brand-mastodon"
+
+[[social]]
+identifier = "youtube"
+name = "YouTube"
+url = "https://youtube.com/@TokyoHackerGirls"
+
+[social.params]
+icon = "brand-youtube"
+
+[[social]]
+identifier = "bluesky"
+name = "Bluesky"
+url = "https://bsky.app/profile/thgirls.yt"
+
+[social.params]
+icon = "brand-bluesky"
