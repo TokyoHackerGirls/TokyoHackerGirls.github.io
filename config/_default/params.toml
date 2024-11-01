@@ -13,22 +13,17 @@ published = "Jan 02, 2006"
 lastUpdated = "Jan 02, 2006 15:04 UTC"
 
 [sidebar]
-emoji = "🍥"
 subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
 [sidebar.avatar]
 enabled = true
 local = true
-src = "img/avatar.png"
+src = "img/lina_cyan_kiss2_2_icon2.png"
 
 [article]
 headingAnchor = false
 math = false
 readingTime = true
-
-[article.license]
-enabled = true
-default = "Licensed under CC BY-NC-SA 4.0"
 
 ## Widgets
 [[widgets.homepage]]
