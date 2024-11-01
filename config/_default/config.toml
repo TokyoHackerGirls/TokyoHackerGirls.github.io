@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://TokyoHackerGirls.github.io"
+baseurl = "https://blog.thgirls.yt"
 languageCode = "en-us"
 title = "Tokyo Hacker Girls"
 
