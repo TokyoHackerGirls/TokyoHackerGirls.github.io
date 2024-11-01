@@ -1,6 +1,68 @@
 /*
     You can add your own custom styles here.
 */
+
+.article-content figure.avatar {
+    display: block;
+    width: 10em;
+    height: 10em;
+    margin: 1em;
+}
+
+.article-content figure.avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    box-shadow: var(--shadow-l1);
+}
+
+.article-content h1 {
+    clear: both;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile figure.avatar {
+    margin: 0 auto;
+}
+
+.profile h1 {
+    text-align: center;
+    border-inline-start: 0;
+}
+
+h1.center-title, h2.center-title {
+    text-align: center;
+    border-inline-start: 0;
+}
+
+@include respond(md) {
+    .profiles {
+        flex-direction: row;
+    }
+    .profile {
+        width: 50%;
+    }
+}
+
 /*
 * {
     user-select: none;
@@ -10,3 +72,4 @@ pre, code {
     user-select: auto;
 }
 */
+

@@ -1,0 +1,5 @@
+{{- $file := .Get "file" | default (.Get 0) -}}
+{{- $class := .Get "class" | default (.Get 1) -}}
+<figure class="avatar {{ $class }}">
+    <img src="{{ $file }}">
+</figure>
