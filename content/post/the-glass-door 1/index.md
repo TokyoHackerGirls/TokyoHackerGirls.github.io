@@ -1,7 +1,8 @@
 ---
-title: The Glass Door
+title: The Glass Door 01
 slug: the-glass-door-01
-date: 2024-11-01 00:00:00+0000
+date: 2024-11-11 00:00:00+0000
+image: blue.jpg
 categories:
     - the-glass-door
 author: Cyan Nyan

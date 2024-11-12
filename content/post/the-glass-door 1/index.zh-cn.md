@@ -1,10 +1,11 @@
 ---
-title: 玻璃与门
+title: 玻璃与门 01
 slug: the-glass-door-01
-date: 2024-11-01 00:00:00+0000
+date: 2024-11-11 00:00:00+0000
 categories:
     - the-glass-door
 author: 赛小盐
+image: blue.jpg
 ---
 
 十月的阳光乘着暖暖的微风，从百叶窗的缝隙间悄然流淌进来，安详得如同猫咪午睡时平稳的呼吸。
