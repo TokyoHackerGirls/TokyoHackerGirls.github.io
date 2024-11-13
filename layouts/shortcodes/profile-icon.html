@@ -1,5 +1,7 @@
 {{- $file := .Get "file" | default (.Get 0) -}}
 {{- $class := .Get "class" | default (.Get 1) -}}
+{{ with $.Page.Resources.Get $file }}
 <figure class="avatar {{ $class }}">
-    <img src="{{ $file }}">
+    <img src="{{ .RelPermalink }}">
+{{ end }}
 </figure>
