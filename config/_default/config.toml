@@ -35,3 +35,12 @@ source = 'content/artwork'
 target = 'content/artwork'
 lang = 'zh-cn'
 
+# Art tags & artwork share a layout
+[[module.mounts]]
+source = 'layouts'
+target = 'layouts'
+
+# Art tags & artwork share a layout
+[[module.mounts]]
+source = 'layouts/artwork'
+target = 'layouts/art-tags'
