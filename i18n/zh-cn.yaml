@@ -3,6 +3,8 @@ artwork:
 
     page: "{{ .Count }} 张插画"
 
+    no-title: "{{ .artist }}"
+
 widget:
     artists:
         title: "插画家"

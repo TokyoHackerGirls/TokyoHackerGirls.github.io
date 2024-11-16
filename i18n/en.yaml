@@ -8,6 +8,8 @@ artwork:
         one: "{{ .Count }} image"
         other: "{{ .Count }} images"
 
+    no-title: "Artwork by {{ .artist }}"
+
 widget:
     artists:
         title: "Artists"
