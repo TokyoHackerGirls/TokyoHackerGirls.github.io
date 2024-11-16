@@ -8,7 +8,9 @@
 {{ if index .Params "art tags" }}
     <section class="article-tags art-tags">
         {{ range (.GetTerms "art-tags") }}
-            <a class="tag-{{ .LinkTitle | urlize }}" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+            <a class="tag-{{ .LinkTitle | urlize }}" href="{{ .RelPermalink }}">
+                {{ .LinkTitle | printf "tags.%s" | T | default .LinkTitle }}
+            </a>
         {{ end }}
     </section>
 {{ end }}
