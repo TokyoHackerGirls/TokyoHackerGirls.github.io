@@ -24,3 +24,13 @@ category = "categories"
 tag = "tags"
 artist = "artist"
 "art tag" = "art tags"
+
+# Clone artwork subtree as zh-cn since it has no content, only front matter
+[[module.mounts]]
+source = 'content/artwork'
+target = 'content/artwork'
+lang = 'zh-cn'
+
+[[module.mounts]]
+source = 'content'
+target = 'content'
