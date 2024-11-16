@@ -65,17 +65,14 @@
                 <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
             </div>
         {{ end }}
-    </footer>
-    {{ end }}
-
-    {{ if .IsTranslated }}
-        <footer class="article-translations">
+        {{ if .IsTranslated }}
             {{ partial "helper/icon" "language" }}
             <div>
                 {{ range .Translations }}
                     <a href="{{ .Permalink }}" class="link">{{ .Language.LanguageName }}</a>
                 {{ end }}
             </div>
-        </footer>
+        {{ end }}
+    </footer>
     {{ end }}
 </div>
