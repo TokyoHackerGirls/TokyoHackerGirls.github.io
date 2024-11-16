@@ -1,5 +1,5 @@
 ---
-title: Hello World Nya~! ✨
+title: 你好世界喵~! ✨
 slug: hello-world
 date: 2024-11-01 00:00:00+0000
 image: lina_cyan_kiss_book.jpg
@@ -8,44 +8,36 @@ categories:
 author: 赛小盐
 ---
 
-Tokyo Hacker Girlsへようこそ〜！
+欢迎来到Tokyo Hacker Girls的小家〜！
 
-Welcome to our VTuber Tech Blog!
+这是我们关于技术，爱与VTuber之旅的部落格✨
 
-## Hello everyone! 🎉
+## 我们是谁！🩵✨
 
-We’re Cyan Nyan and Asahi Lina, and we’re excited to welcome you to our very first blog post! I (Cyan) am a former Googler, illustrator, aspiring singer, and dreamer, while Lina is a talented VTuber known for her impressive work in technology and her role in developing GPU drivers for the Asahi Linux project. Together, as part of the Tokyo Hacker Girls, we’re thrilled to share our journey in the tech and VTuber communities.
+我们是赛小盐和朝日林奈～欢迎来到我们的第一篇博文！我是小盐，一个前谷歌软件工程师，梦想成为少女插画师和歌手。林奈酱 (Asahi Lina) 是我的未婚妻（在本文发表时^^），也是大家熟悉的GPU驱动工程师、Linux内核黑客和作曲爱好者。她还是在Mac上运行Linux的Asahi Linux的主要工程师之一。我们既是恋人，也是百合VTuber组合 Tokyo Hacker Girls（东京黑客少女）。我们希望通过直播和博客向科技和VTuber社区分享知识和爱！
 
-## Our Vision
+## 我们的使命 🫧✨
 
-Our goal is to create a warm and inclusive community filled with love, creativity, and knowledge-sharing. We hope to inspire others by sharing what we’ve learned over the years, and to provide a space where everyone can learn, connect, and support one another. We believe in building a community where both tech and VTuber fans can feel at home and be a part of our journey.
+我们一直希望通过自己的影响力创造一个温暖、友好且富有创造力的知识社区。我们希望通过分享我们的经历，与更多人一起学习和成长。我们相信我们的二人组合有特别的魔力，想为世界创造独一无二的美好事物。
 
-## What to Expect
+## 博客的内容
 
-Here’s a glimpse of what we are going to write about:
+1. **VTuber科技与社区**：我们会分享最新的VTuber技术、参与工具的开发，并提供社区建设的提示和感想。
+2. **林小姐的技术文章**：林小姐会分享她对技术热点的见解（如Rust、Linux内核、Asahi Linux等）。
+3. **VTuber知识分享**：小盐会分享她作为2020年出道的VTuber所学的知识，包括VTuber工具、封面UI制作以及社区建设。
+4. **关于生活与爱的回忆录**：无论是打败抑郁症还是如何找到VTuber女朋友，总有一篇会触动你的心。
+5. **小盐的秘密食谱**：小盐大厨的秘制食谱，分享如何俘获林小姐的胃！
+6. **图集**：东京黑客少女的百合图集！插图由小盐和团队严格把关，满满的百合糖。我们的目标是做最厉害的百合VTuber！
 
- 1. VTuber Tech & Community: We will write about the latest trends and tools that enhance our VTuber experience.
- 1. Personal Tech Insights: Lina will share her experience with advanced programming languages (Rust, Python, C) through her reverse engineering and open-source projects.
- 1. Knowledge Sharing: Cyan will provide useful VTuber tips, covering VTuber tools, UI/UX for YouTube streams, and community building.
- 1. Cyan’s Life Stories: Cyan will share stories about her life with Lina, their dreams, and how they grow every day while facing challenges together.
- 1. Cyan’s Recipes: Cyan’s special, maid-inspired recipes that will change your life!
- 1. Diaries: Personal reflections and experiences from our journey.
- 1. Cute Stuff: Fun, adorable content to brighten your day.
- 1. Artwork Gallery: Showcasing our art and that of talented creators.
- 1. Minigames: Interactive games to enjoy during streams.
- 1. Interactive 3D Kitten: Because who doesn’t love a cute kitten?
+## 可以和你们说话吗
 
-## How to Reach Us
+当然可以啦！欢迎随时给我们发邮件或通过棉花糖投稿 (cyan.yt/qa)。我们希望真诚和善意的人都能得到他们需要的帮助，也很乐意与大家交流。
 
-We’d love to hear from you! Whether it’s feedback, questions, or just a quick hello, feel free to reach out through email or our Marshmallow Q&A platform. We’re here to connect and chat with our community!
+* 盐喵使用简体中文（模块略生锈）和英语
+* 林小姐使用英语和日语
 
-* Cyan speaks both English and Simplified Chinese.
-* Lina speaks both English and Japanese.
+我们都有十年以上的海外经历，期待和世界各地的人交朋友！
 
-Both of us have over 10 years of overseas experience, and we’re excited to connect with fans from around the world.
+## 预告：盐喵和林小姐的恋爱故事 💞
 
-## Coming Up Next: How We Met 💞
-
-In our next post, we’ll share the story of how we met and began this exciting journey together. It’s a tale of tech, passion, and a lot of late-night conversations, and we can’t wait to let you in on it!
-
-This structure makes your blog welcoming, informative, and gives readers a sense of what to expect, how to communicate with you, and a sneak peek into the next post. Let me know if you’d like any more ideas or a deeper dive into any section!
+下篇文章会讲述我和林小姐从相遇到求婚（历时10个月）的细节。大家准备好瓜子和棉花糖哦！

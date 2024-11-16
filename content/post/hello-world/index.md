@@ -6,6 +6,7 @@ image: lina_cyan_kiss_book.jpg
 categories:
     - Meta
 author: Cyan Nyan
+weight: 0
 ---
 
 Tokyo Hacker Girlsへようこそ〜！
@@ -47,5 +48,3 @@ Both of us have over 10 years of overseas experience, and we’re excited to con
 ## Coming Up Next: How We Met 💞
 
 In our next post, we’ll share the story of how we met and began this exciting journey together. It’s a tale of tech, passion, and a lot of late-night conversations, and we can’t wait to let you in on it!
-
-This structure makes your blog welcoming, informative, and gives readers a sense of what to expect, how to communicate with you, and a sneak peek into the next post. Let me know if you’d like any more ideas or a deeper dive into any section!
