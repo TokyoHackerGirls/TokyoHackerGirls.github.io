@@ -9,21 +9,26 @@
     </header>
     {{ end }}
 
-    <div class="article-title-wrapper">
-        <h2 class="article-title">
-            <a href="{{ .RelPermalink }}">
-                {{- .Title -}}
-            </a>
-        </h2>
-    
-        {{ with .Params.description }}
-        <h3 class="article-subtitle">
-            {{ . }}
-        </h3>
-        {{ end }}
-    </div>
+    {{ if ne .CurrentSection.Path "/art" }}
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="{{ .RelPermalink }}">
+                    {{- .Title -}}
+                </a>
+            </h2>
+
+            {{ with .Params.description }}
+            <h3 class="article-subtitle">
+                {{ . }}
+            </h3>
+            {{ end }}
+        </div>
+    {{ end }}
 
     {{ $showReadingTime := .Params.readingTime | default (.Site.Params.article.readingTime) }}
+    {{ if eq .CurrentSection.Path "/artwork" }}
+        {{ $showReadingTime = false }}
+    {{ end }}
     {{ $showAuthor := .Params.author | default (.Site.Params.article.author) }}
     {{ $showDate := not .Date.IsZero }}
     {{ $showFooter := or $showDate $showReadingTime $showAuthor }}
@@ -51,6 +56,13 @@
             <div>
                 {{ partial "helper/icon" "sparkles" }}
                 {{ T "article.author" .Params.author }}
+            </div>
+        {{ end }}
+
+        {{ range (.GetTerms "artist") }}
+            <div>
+                {{ partial "helper/icon" "brush" }}
+                <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
             </div>
         {{ end }}
     </footer>

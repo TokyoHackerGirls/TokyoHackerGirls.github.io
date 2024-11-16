@@ -14,5 +14,13 @@ hasCJKLanguage = false
 # Change it to your Disqus shortname before using
 disqusShortname = "tokyo-hacker-girls"
 
+pluralizeListTitles = false
+
 [pagination]
 pagerSize = 5
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+artist = "artist"
+"art tag" = "art tags"

@@ -1,0 +1,14 @@
+{{ if .Params.Tags }}
+    <section class="article-tags">
+        {{ range (.GetTerms "tags") }}
+            <a class="tag-{{ .LinkTitle | urlize }}" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        {{ end }}
+    </section>
+{{ end }}
+{{ if index .Params "art tags" }}
+    <section class="article-tags art-tags">
+        {{ range (.GetTerms "art-tags") }}
+            <a class="tag-{{ .LinkTitle | urlize }}" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        {{ end }}
+    </section>
+{{ end }}

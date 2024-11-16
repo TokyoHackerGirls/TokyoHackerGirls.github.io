@@ -1,0 +1,8 @@
+artwork:
+    section: "插图"
+
+    page: "{{ .Count }} 张插画"
+
+widget:
+    artists:
+        title: "插画家"

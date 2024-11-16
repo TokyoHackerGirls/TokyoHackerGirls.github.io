@@ -7,6 +7,14 @@
 #icon = "home"
 #newtab = true
 
+[[main]]
+identifier = "artwork"
+name = "Artwork"
+url = "/art"
+[main.params]
+icon = "palette"
+
+
 [[social]]
 identifier = "github"
 name = "GitHub"

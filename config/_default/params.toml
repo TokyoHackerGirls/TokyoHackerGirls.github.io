@@ -42,6 +42,12 @@ type = "categories"
 limit = 10
 
 [[widgets.homepage]]
+type = "artists"
+
+[widgets.homepage.params]
+limit = 10
+
+[[widgets.homepage]]
 type = "tag-cloud"
 
 [widgets.homepage.params]

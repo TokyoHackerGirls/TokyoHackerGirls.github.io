@@ -1,0 +1,26 @@
+{{- $context := .Context -}}
+{{- $limit := default 10 .Params.limit -}}
+<section class="widget tagCloud">
+    <div class="widget-icon">
+        {{ partial "helper/icon" "tag" }}
+    </div>
+    <h2 class="widget-title section-title">{{ T "widget.tagCloud.title" }}</h2>
+
+    {{- if hasPrefix $context.CurrentSection.Path "/art" | not -}}
+    <div class="tagCloud-tags">
+        {{ range first $limit $context.Site.Taxonomies.tags.ByCount }}
+            <a href="{{ .Page.RelPermalink }}" class="font_size_{{ .Count }}">
+                {{ .Page.Title }}
+            </a>
+        {{ end }}
+    </div>
+    {{- else -}}
+    <div class="tagCloud-tags">
+        {{ range first $limit (index $context.Site.Taxonomies "art tags").ByCount }}
+            <a href="{{ .Page.RelPermalink }}" class="font_size_{{ .Count }}">
+                {{ .Page.Title }}
+            </a>
+        {{ end }}
+    </div>
+    {{ end }}
+</section>

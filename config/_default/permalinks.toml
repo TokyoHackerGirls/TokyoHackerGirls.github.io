@@ -1,3 +1,5 @@
 # Permalinks format of each content section
 post = "/p/:slug/"
 page = "/:slug/"
+[section]
+artwork = "/art"
