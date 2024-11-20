@@ -76,9 +76,9 @@ enabled = true
 enabled = true
 
 ## Comments
-# [comments]
-# enabled = true
-# provider = "disqus"
+[comments]
+enabled = true
+provider = "remark42"
 
 [comments.disqusjs]
 shortname = ""
@@ -93,9 +93,9 @@ issueTerm = "pathname"
 label = ""
 
 [comments.remark42]
-host = ""
-site = ""
-locale = ""
+host = "https://remark.thgirls.yt"
+site = "thgirls"
+locale = "en"
 
 [comments.vssue]
 platform = ""
