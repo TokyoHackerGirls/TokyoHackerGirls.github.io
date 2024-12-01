@@ -46,3 +46,11 @@ url = "https://bsky.app/profile/thgirls.yt"
 
 [social.params]
 icon = "brand-bluesky"
+
+[[social]]
+identifier = "discord"
+name = "Discord"
+url = "https://discord.gg/BZew62zPsS"
+
+[social.params]
+icon = "brand-discord"
