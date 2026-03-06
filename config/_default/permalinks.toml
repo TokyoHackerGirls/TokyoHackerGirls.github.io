@@ -1,6 +1,6 @@
 # Permalinks format of each content section
-post = "/p/:year/:month/:slugorfilename/"
-page = "/:slugorfilename/"
-artwork = "/art/:year/:month/:slugorfilename/"
+post = "/p/:year/:month/:slugorcontentbasename/"
+page = "/:slugorcontentbasename/"
+artwork = "/art/:year/:month/:slugorcontentbasename/"
 [section]
 artwork = "/art"
