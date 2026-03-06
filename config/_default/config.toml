@@ -16,6 +16,10 @@ pluralizeListTitles = false
 [imaging]
 resampleFilter = "lanczos"
 
+[caches.images]
+dir = ':cacheDir/:project/_gen'
+maxAge = -1
+
 [pagination]
 pagerSize = 5
 
