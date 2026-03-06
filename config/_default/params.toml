@@ -18,7 +18,7 @@ subtitle = "We're Asahi Lina and Cyan Nyan, and together we are the Tokyo Hacker
 [sidebar.avatar]
 enabled = true
 local = true
-src = "img/lina_cyan_kiss2_2_icon2.png"
+src = "img/lina_cyan_selfie_icon.png"
 
 [article]
 headingAnchor = false
