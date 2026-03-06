@@ -26,10 +26,16 @@ comments: false
     {{< profile-icon lina.jpg >}}
     <h1>Hoshino Lina</h1>
     <div>
-  
-Lina is a developer VTuber. She used to work on GPU drivers, and she developed the world's first Linux GPU driver written in Rust. These days she works on streaming-related technologies such as [Spout2PW](https://spout2pw.lina.yt). She also helps maintain Fedora packages, including OBS.
 
-In her spare time, she likes playing the piano and making music.
+星乃林奈是一名开发者系 VTuber ✰
+
+她是一个写 GPU 驱动的大佬，好像写出了世界上第一个用 Rust 的 Linux GPU 驱动来着。
+
+最近她在玩弄各种虚拟主播直播相关技术，比如 [Spout2PW](https://spout2pw.lina.yt) 这种让直播链路更丝滑的小工具。
+
+另外她也在帮忙维护一些 Fedora 软件包，其中包括大家熟悉的 OBS 的软件包。
+
+是那种白天写驱动，晚上弹琴的天才黑客猫娘噢（不要说是我说的w）。
 
   </div>
   </div>
@@ -38,7 +44,15 @@ In her spare time, she likes playing the piano and making music.
     <h1>Cyan Nyan</h1>
     <div>
     
-Tensai Neko C++ Yuri Queen (A.K.A. Hoshino Lina's fiancee, for real)
+星乃小盐是一名 开发星乃林奈系的 VTuber ✰
+
+在不能喝酒的年龄就拿下了计算机本硕的酒寄彩叶系卷心菜，开始 VTuber 活动后居然作为 YouTuber 和工程师同时为谷歌打两份工(x)
+
+但是百合不能停啊~ 最喜欢的果然还是林奈小姐不是吗
+
+在林奈小姐的支持下开始好好学习插画日语和翻唱了，大概是要做超萌萌的世界第一的百合组合了吧！
+
+顺便一提，最喜欢的语言和 Lina 一样是 Python 噢！
 
   </div>
   </div>
