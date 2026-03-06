@@ -1,14 +1,24 @@
 <header class="article-header">
+    {{- $video := .Page.Resources.Get (.Params.video) -}}
     {{- $image := partialCached "helper/image" (dict "Context" . "Type" "article") .RelPermalink "article" -}}
-    {{ if $image.exists }}
+    {{ if $video }}
         <div class="article-image">
+            <a href="{{ if page.IsPage }}{{ $video.RelPermalink }}{{ else }}{{ .RelPermalink }}{{ end }}">
+            <video
+            src="{{- $video.RelPermalink -}}"
+            {{ if $image.resource }}poster="{{ $image.resource.RelPermalink }}"{{ end }}
+            autoplay loop
+            >
+    {{ end }}
+    {{ if $image.exists }}
+        {{ if not $video }}<div class="article-image">{{ end }}
             {{ if $image.resource }}
-                <a href="{{ if page.IsPage }}{{ $image.resource.RelPermalink }}{{ else }}{{ .RelPermalink }}{{ end }}">
+                {{ if not $video }}<a href="{{ if page.IsPage }}{{ $image.resource.RelPermalink }}{{ else }}{{ .RelPermalink }}{{ end }}">{{ end }}
                     {{- $Permalink := $image.resource.RelPermalink -}}
                     {{- $Width := $image.resource.Width -}}
                     {{- $Height := $image.resource.Height -}}
                     {{- $Srcset := "" -}}
-                    
+
                     {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
                         {{- $thumbnail := $image.resource.Resize "800x" -}}
                         {{- $thumbnailRetina := $image.resource.Resize "1600x" -}}
@@ -24,12 +34,17 @@
                         height="{{ $Height }}" 
                         loading="lazy"
                         alt="Featured image of post {{ .Title }}" />
-                </a>
+                {{ if not $video }}</a>{{ end }}
             {{ else }}
-                <a href="{{ if page.IsPage }}{{ $image.permalink }}{{ else }}{{ .RelPermalink }}{{ end }}">
+                {{ if not $video }}<a href="{{ if page.IsPage }}{{ $image.permalink }}{{ else }}{{ .RelPermalink }}{{ end }}">{{ end }}
                     <img src="{{ $image.permalink }}" loading="lazy" alt="Featured image of post {{ .Title }}" />
-                </a>
+                {{ if not $video }}</a>{{ end }}
             {{ end }}
+        {{ if not $video }}</div>{{ end }}
+    {{ end }}
+    {{ if $video }}
+                </video>
+            </a>
         </div>
     {{ end }}
 

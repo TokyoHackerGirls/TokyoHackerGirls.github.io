@@ -138,8 +138,13 @@ article.main-image.main-article {
         gap: 0px;
     }
 
-    .article-header .article-image img {
-        max-height: none;
+    .article-header .article-image {
+        img {
+            max-height: none;
+        }
+        video {
+            max-height: none;
+        }
     }
 }
 
@@ -182,6 +187,28 @@ article.main-image.main-article {
         background-color: #ff8e8e;
     }
 }
+
+.article-page {
+    .main-article {
+        .article-header {
+            .article-image {
+                video {
+                    height: auto;
+                    max-height: 50vh;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+.video-wrapper {
+    video {
+        max-width: 100%;
+    }
+}
+
 
 /*
 * {
