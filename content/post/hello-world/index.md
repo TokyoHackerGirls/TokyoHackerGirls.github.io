@@ -15,7 +15,7 @@ Welcome to our VTuber Tech Blog!
 
 ## Hello everyone! 🎉
 
-We’re Cyan Nyan and Asahi Lina, and we’re excited to welcome you to our very first blog post! I (Cyan) am a former Googler, illustrator, aspiring singer, and dreamer, while Lina is a talented VTuber known for her impressive work in technology and her role in developing GPU drivers for the Asahi Linux project. Together, as part of the Tokyo Hacker Girls, we’re thrilled to share our journey in the tech and VTuber communities.
+We’re Cyan Nyan and Hoshino Lina, and we’re excited to welcome you to our very first blog post! I (Cyan) am a former Googler, illustrator, aspiring singer, and dreamer, while Lina is a talented VTuber known for her impressive work in technology and her role in developing GPU drivers for the Asahi Linux project. Together, as part of the Tokyo Hacker Girls, we’re thrilled to share our journey in the tech and VTuber communities.
 
 ## Our Vision
 

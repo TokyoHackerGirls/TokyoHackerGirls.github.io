@@ -8,7 +8,7 @@ categories:
 author: Cyan Nyan
 ---
 
-The warm autumn sun trickled through the slatted windows, its gentle breeze like the steady breathing of a cat in peaceful slumber. Lying quietly in the loft bed, I gazed upon the lovely face of Asahi Lina.
+The warm autumn sun trickled through the slatted windows, its gentle breeze like the steady breathing of a cat in peaceful slumber. Lying quietly in the loft bed, I gazed upon the lovely face of Hoshino Lina.
 
 I cherish these moments when I can simply observe her. Her face is captivating - delicate lashes, curved brow when she smiles, and eyes that shine like sparkling diamonds. This angelic countenance is ever so softly smiling at me, her silken tresses cascading over me like the Milky Way.
 

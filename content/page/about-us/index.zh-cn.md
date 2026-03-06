@@ -24,10 +24,10 @@ comments: false
 <div class="profiles">
   <div class="profile">
     {{< profile-icon lina.jpg >}}
-    <h1>Asahi Lina</h1>
+    <h1>Hoshino Lina</h1>
     <div>
   
-Lina is a Linux developer VTuber who spends most of her time working on the [Asahi Linux](https://asahilinux.org) project. She developed the world's first Linux GPU driver written in Rust.
+Lina is a developer VTuber. She used to work on GPU drivers, and she developed the world's first Linux GPU driver written in Rust. These days she works on streaming-related technologies such as [Spout2PW](https://spout2pw.lina.yt). She also helps maintain Fedora packages, including OBS.
 
 In her spare time, she likes playing the piano and making music.
 
@@ -38,7 +38,7 @@ In her spare time, she likes playing the piano and making music.
     <h1>Cyan Nyan</h1>
     <div>
     
-Tensai Neko C++ Yuri Queen (A.K.A. Asahi Lina's fiancee, for real)
+Tensai Neko C++ Yuri Queen (A.K.A. Hoshino Lina's fiancee, for real)
 
   </div>
   </div>

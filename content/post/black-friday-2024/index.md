@@ -16,7 +16,7 @@ It’s Black Friday again! Today, I’m sharing some of my all-time favorite tec
 
 ### About Me
 
-Hi, I am Cyan! I’m a aspiring anime artist and singer, with over a decade of experience as a coding enthusiast. For the past few years, I worked for Google in North America, and in my spare time, I run a YouTube channel filled with gaming, covers, videos, and live streams. I’m also the fiancée of Asahi Lina, a Linux kernel developer for Asahi Linux. These recommendations are treasures that have greatly helped us in work efficiency, creative endeavors, and relaxation.
+Hi, I am Cyan! I’m a aspiring anime artist and singer, with over a decade of experience as a coding enthusiast. For the past few years, I worked for Google in North America, and in my spare time, I run a YouTube channel filled with gaming, covers, videos, and live streams. I’m also the fiancée of Hoshino Lina, a Linux kernel developer for Asahi Linux. These recommendations are treasures that have greatly helped us in work efficiency, creative endeavors, and relaxation.
 
 Let’s dive right in!
 
