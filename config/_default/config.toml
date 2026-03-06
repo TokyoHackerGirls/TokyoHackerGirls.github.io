@@ -13,6 +13,9 @@ hasCJKLanguage = false
 
 pluralizeListTitles = false
 
+[imaging]
+resampleFilter = "lanczos"
+
 [pagination]
 pagerSize = 5
 
